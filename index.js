@@ -4,7 +4,7 @@
  * imcrypt
  * An image encryption node-js cli
  *
- * @author theninza <https://theninza.me>
+ * @author tyrants
  */
 
 const init = require('./utils/init');
@@ -31,7 +31,7 @@ const { clear } = flags;
 
 	const chalk = (await import(`chalk`)).default;
 
-	// print Give it a star on github: https://github.com/theninza/imcrypt with chalk and bgMagenta
+	// print Give it a star on github: https://github.com/thisisabhijith with chalk and bgMagenta
 	console.log(
 		chalk.bgMagenta(` Give it a star on github: `) +
 			chalk.bold(` https://github.com/theninza/imcrypt `)
