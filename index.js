@@ -34,6 +34,6 @@ const { clear } = flags;
 	// print Give it a star on github: https://github.com/thisisabhijith with chalk and bgMagenta
 	console.log(
 		chalk.bgMagenta(` Give it a star on github: `) +
-			chalk.bold(` https://github.com/theninza/imcrypt `)
+			chalk.bold(` https://github.com/thisisabhijith `)
 	);
 })();
